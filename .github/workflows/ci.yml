@@ -23,5 +23,5 @@ jobs:
           java-version: '11'
           cache: maven
 
-      - name: Run tests
-        run: ./mvnw -B clean test
+      - name: Build and test
+        run: ./mvnw -B clean verify
